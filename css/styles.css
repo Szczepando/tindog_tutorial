@@ -1,0 +1,142 @@
+/***** HTML ELEMENTS *****/
+h1 {
+  font-family: "Montserrat-Black", "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+i {
+  padding-right: 5px;
+}
+body {
+  font-family: "Montserrat";
+}
+p {
+  color: #8f8f8f;
+}
+
+/***** SELECTORS *****/
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.corgie-img {
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+}
+.ft-box{
+  padding: 5%;
+}
+.ft-icon {
+  color: #ef8172;
+  font-size: 3rem;
+}
+.ft-icon:hover {
+  color: #ff4c68;
+}
+.ft-title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.ft-desc {
+  color: #8f8f8f;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+/***** IDS *****/
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.call-h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+}
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+#footer {
+  line-height: 2;
+  padding: 7% 15%;
+  text-align: center;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  padding: 7% 15% 0;
+  text-align: center;
+}
+
+/***** MEDIA QUERIES *****/
+@media (max-width: 1028px) {
+  .corgie-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
